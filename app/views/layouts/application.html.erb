@@ -34,7 +34,29 @@
 
     <br class="clear" />
 
+    <div class="container">
+
     <%= yield %>
+
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Build and design by <a href="[YOUR_PORTFOLIO_URL]">[Tanner Haro]</a><br />
+            Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to
+            code here</a>
+          </div>
+
+          <p class="text-muted">Place sticky footer content here.</p>
+        </div>
+      </div>
+    </div>
+
 
   </body>
 </html>
